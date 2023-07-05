@@ -1,6 +1,6 @@
 # Hotel Booking Cancellation Prediction
 
-## Business problem
+## Business Problem
 In recent years, City Hotel and Resort Hotel have seen high cancellation rates. Each hotel is now dealing with a number of issues as a result, including fewer revenues and less than ideal hotel room use. Consequently, lowering cancellation rates is both hotels' the primary goal in order to increase their efficiency in generating revenue, and for us to offer thorough business advice to address this problem. The analysis of hotel booking cancellations as well as other factors that have no bearing on their business and yearly revenue generation are the main topics of this project.
 
 ## Project Files
@@ -8,9 +8,13 @@ In recent years, City Hotel and Resort Hotel have seen high cancellation rates. 
 * [Dataset](hotel_booking.csv): This data set contains booking information for a city hotel and a resort hotel, and includes information such as when the booking was made, length of stay, the number of adults, children, and/or babies, and the number of available parking spaces, among other things (all personally identifying information has been removed from the data). 
 
 * [Implementation](hotel_booking_cancellation_prediction.ipynb): Notebook with solutions.
- ** ccc
 
-
+## Sections
+* Data Cleaning
+* Exploratory Data Analysis (EDA)
+* Pre-Processing
+* Model Building
+* Model Comparison
 
 ## Data Dictionary 
 ---
