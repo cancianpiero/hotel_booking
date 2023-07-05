@@ -1,11 +1,13 @@
 # Hotel Booking Cancellation Prediction
 
-## Project Files: 
+## Objective
+Have you ever wondered when the best time of year to book a hotel room is? Or the optimal length of stay in order to get the best daily rate? What if you wanted to predict whether or not a hotel was likely to receive a disproportionately high number of special requests?
 
-* [Dataset](hotel_booking.csv): Hotel Booking Dataset 
+## Project Files
+
+* [Dataset](hotel_booking.csv): Hotel Booking Dataset: This data set contains booking information for a city hotel and a resort hotel, and includes information such as when the booking was made, length of stay, the number of adults, children, and/or babies, and the number of available parking spaces, among other things (all personally identifying information has been removed from the data). 
 
 * [Implementation](hotel_booking_cancellation_prediction.ipynb): Notebook with solutions
-
 
 ## Data Dictionary 
 ---
@@ -38,6 +40,31 @@
 |RequiredCarParkingSpaces|Integer|Number of car parking spaces required by the customer.|
 |ReservationStatus|Categorical|Reservation last status, assuming one of three categories: Canceled (booking was canceled by the customer), Check-Out (customer has checked in but already departed), No-Show (customer did not check-in and did inform the hotel of the reason why). 
 |ReservationStatusDate|Date|Date at which the last status was set. This variable can be used in conjunction with the `ReservationStatus` to understand when was the booking canceled or when did the customer checked-out of the hotel.|
+
+## Models
+
+* Logistic Regression
+* K-Nearest Neighbors
+* Decision Tree
+* Random Forest
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 |ReservedRoomType|Categorical|Code of room type reserved. Code is presented instead of designation for anonymity reasons.|
 |StaysInWeekendNights|Integer|Number of weekend nights (Saturday or Sunday) the guest stayed or booked to stay at the hotel. Calculated by counting the number of weekend nights from the total number of nights.|
 |StaysInWeekNights|Integer|Number of week nights (Monday to Friday) the guest stayed or booked to stay at the hotel. Calculated by counting the number of week nights from the total number of nights.|
