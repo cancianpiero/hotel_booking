@@ -5,7 +5,7 @@ Have you ever wondered when the best time of year to book a hotel room is? Or th
 
 ## Project Files
 
-* [Dataset](hotel_booking.csv): Hotel Booking Dataset: This data set contains booking information for a city hotel and a resort hotel, and includes information such as when the booking was made, length of stay, the number of adults, children, and/or babies, and the number of available parking spaces, among other things (all personally identifying information has been removed from the data). 
+* [Dataset](hotel_booking.csv): This data set contains booking information for a city hotel and a resort hotel, and includes information such as when the booking was made, length of stay, the number of adults, children, and/or babies, and the number of available parking spaces, among other things (all personally identifying information has been removed from the data). 
 
 * [Implementation](hotel_booking_cancellation_prediction.ipynb): Notebook with solutions
 
