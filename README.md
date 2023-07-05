@@ -40,6 +40,10 @@ Have you ever wondered when the best time of year to book a hotel room is? Or th
 |RequiredCarParkingSpaces|Integer|Number of car parking spaces required by the customer.|
 |ReservationStatus|Categorical|Reservation last status, assuming one of three categories: Canceled (booking was canceled by the customer), Check-Out (customer has checked in but already departed), No-Show (customer did not check-in and did inform the hotel of the reason why). 
 |ReservationStatusDate|Date|Date at which the last status was set. This variable can be used in conjunction with the `ReservationStatus` to understand when was the booking canceled or when did the customer checked-out of the hotel.|
+|ReservedRoomType|Categorical|Code of room type reserved. Code is presented instead of designation for anonymity reasons.|
+|StaysInWeekendNights|Integer|Number of weekend nights (Saturday or Sunday) the guest stayed or booked to stay at the hotel. Calculated by counting the number of weekend nights from the total number of nights.|
+|StaysInWeekNights|Integer|Number of week nights (Monday to Friday) the guest stayed or booked to stay at the hotel. Calculated by counting the number of week nights from the total number of nights.|
+|TotalOfSpecialRequests|Integer|Number of special requests made by the customer (e.g. twin bed or high floor).|
 
 ## Models
 
@@ -47,25 +51,3 @@ Have you ever wondered when the best time of year to book a hotel room is? Or th
 * K-Nearest Neighbors
 * Decision Tree
 * Random Forest
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-|ReservedRoomType|Categorical|Code of room type reserved. Code is presented instead of designation for anonymity reasons.|
-|StaysInWeekendNights|Integer|Number of weekend nights (Saturday or Sunday) the guest stayed or booked to stay at the hotel. Calculated by counting the number of weekend nights from the total number of nights.|
-|StaysInWeekNights|Integer|Number of week nights (Monday to Friday) the guest stayed or booked to stay at the hotel. Calculated by counting the number of week nights from the total number of nights.|
-|TotalOfSpecialRequests|Integer|Number of special requests made by the customer (e.g. twin bed or high floor).|
