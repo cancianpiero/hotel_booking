@@ -1,13 +1,16 @@
 # Hotel Booking Cancellation Prediction
 
-## Objective
-Have you ever wondered when the best time of year to book a hotel room is? Or the optimal length of stay in order to get the best daily rate? What if you wanted to predict whether or not a hotel was likely to receive a disproportionately high number of special requests?
+## Business problem
+In recent years, City Hotel and Resort Hotel have seen high cancellation rates. Each hotel is now dealing with a number of issues as a result, including fewer revenues and less than ideal hotel room use. Consequently, lowering cancellation rates is both hotels' the primary goal in order to increase their efficiency in generating revenue, and for us to offer thorough business advice to address this problem. The analysis of hotel booking cancellations as well as other factors that have no bearing on their business and yearly revenue generation are the main topics of this project.
 
 ## Project Files
 
 * [Dataset](hotel_booking.csv): This data set contains booking information for a city hotel and a resort hotel, and includes information such as when the booking was made, length of stay, the number of adults, children, and/or babies, and the number of available parking spaces, among other things (all personally identifying information has been removed from the data). 
 
-* [Implementation](hotel_booking_cancellation_prediction.ipynb): Notebook with solutions
+* [Implementation](hotel_booking_cancellation_prediction.ipynb): Notebook with solutions.
+ ** ccc
+
+
 
 ## Data Dictionary 
 ---
